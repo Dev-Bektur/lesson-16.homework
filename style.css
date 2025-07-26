@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 1440px;
+    height: 40px;
+    background-color: #464343;
+    margin: 20px auto;
+}
+.head-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.head-btn button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #464343;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-top: 5px;
+}
+.head-btn button:hover{
+    background-color: #948f8f;
+}
+
+.result{
+    width: 1440px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px #888;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: scale(0.97);
+}
+
+.card img{
+    width: 100%;
+    height: 270px;
+    border-radius: 17px;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+}
+.name h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.price{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btn-1{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    margin-left: -20px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+}
+.btn-2{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+}
+
+/* ========================= */
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.border{
+    width: 400px;
+    height: 270px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    width: 350px;
+    height: 40px;
+}
+.btn1{
+     width: 350px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: blue;
+    color: white;
+}
+input::placeholder{
+    font-size: large;
+    padding-left: 10px;
+}
+input{
+    font-size: 20px;
+}
