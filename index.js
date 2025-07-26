@@ -37,10 +37,10 @@ function showProduct(list) {
         </div>
 
         <div class="btns">
-        <a href="./create.html"><button class="btn-1">Update</button></a>
+        <button class="btn-1">Update</button>
         <button class="btn-2">Delete</button>
         </div>
         </div>
         `
-    }).join()
+    }).join("")
 }
