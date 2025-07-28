@@ -90,6 +90,12 @@
     color: white;
 
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-1:hover{
+    transform: scale(1.02);
+    background-color: #888;
+    border-radius: 13px;
 }
 .btn-2{
     width: 130px;
@@ -103,6 +109,12 @@
     color: white;
 
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn-2:hover{
+    transform: scale(1.02);
+    background-color: #888;
+    border-radius: 13px;
 }
 
 /* ========================= */
